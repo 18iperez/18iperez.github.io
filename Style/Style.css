@@ -45,6 +45,7 @@
 
   #Nav{
     text-align: center;
+    
   }
 
   #author{
@@ -76,7 +77,33 @@
     align-items: center;
     gap: 15px;
   }
-  footer a img{
-    width: 40px;
-    height: 40px;
-  }
+  form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+input[type="radio"]{
+    align-self: start;
+}
+#Projects1{
+  height: 150px;
+  width: 300px;
+}
+#Prints{
+  width: 500px;
+  height: 400px;
+}
+#Fam{
+  width: 400px;
+  height: 300px;
+}
+#Team{
+  width: 400px;
+  height: 300px;
+}
+footer a img{
+  width: 40px;
+  height: 40px;
+}
